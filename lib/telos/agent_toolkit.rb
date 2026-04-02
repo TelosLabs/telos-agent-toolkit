@@ -2,6 +2,13 @@
 
 require_relative 'agent_toolkit/version'
 require_relative 'agent_toolkit/config'
+require_relative 'agent_toolkit/structs'
+require_relative 'agent_toolkit/fingerprint'
+require_relative 'agent_toolkit/response_cleaner'
+require_relative 'agent_toolkit/llm_client'
+require_relative 'agent_toolkit/llm/base_provider'
+require_relative 'agent_toolkit/llm/anthropic_provider'
+require_relative 'agent_toolkit/llm/openai_provider'
 
 module Telos
   # Shared infrastructure for Telos AI agent gems.
