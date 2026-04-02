@@ -12,6 +12,7 @@ require_relative 'agent_toolkit/llm/openai_provider'
 require_relative 'agent_toolkit/issue_body_builder'
 require_relative 'agent_toolkit/issue_manager'
 require_relative 'agent_toolkit/agent_assigner'
+require_relative 'agent_toolkit/pr_verifier'
 
 module Telos
   # Shared infrastructure for Telos AI agent gems.
