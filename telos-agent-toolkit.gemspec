@@ -27,5 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'faraday-retry'
   spec.add_dependency 'octokit', '~> 9.0'
   spec.add_dependency 'railties', '>= 7.0'
-  spec.add_dependency 'ruby-openai', '~> 7.0'
+  spec.add_dependency 'ruby-openai', '>= 7.0'
 end
