@@ -40,7 +40,7 @@ module Telos
       end
 
       def llm_model
-        llm.fetch('model', 'claude-sonnet-4-20250514')
+        llm.fetch('model', 'claude-sonnet-4-6')
       end
 
       def llm_api_key
